@@ -1,0 +1,108 @@
+*{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-image: linear-gradient(to right, darkviolet, rgb(166, 56, 212), rgb(189, 132, 223), rgb(137, 228, 219));
+}
+button{
+    cursor: pointer;
+}
+a{
+    color: darkviolet;
+}
+.container0 p{
+    color: #fff;
+    width: 40%;
+    font-size: 51.9px;
+    float: left;
+    position: relative;
+    left: 60px;
+    top: 68px;
+    text-align: end; 
+    font-weight: bold;
+    line-height: 70px;
+
+}
+.container1{
+    border: 1px solid #888;
+    width: 28%;
+    height: 79vh;
+    text-align: center;
+    line-height: 30px;
+    float: right;
+    position: relative;
+    top: 50px;
+    right: 15%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.2);
+
+}
+.container1 p{
+    color: #fff;
+    font-size:14px;
+    line-height: 20px;
+}
+#move{
+    padding: 24px;
+}
+.container2 button{
+    width: 90%;
+    height: 25px;
+    font-size: 15px;
+    color: rgb(164, 46, 214);
+    background-color: #fff;
+    border: 2px solid rgb(164, 46, 214);
+    border-radius: 25px;
+    position: relative;
+    top: 10px;
+    font-weight: bold;
+}
+label{
+    color: rgb(99, 81, 98);
+    float: left;
+    padding-left: 20px;
+    font-weight: bold;
+}
+input{
+    width: 89%;
+    height: 25px;
+    border-radius: 25px;
+    border: 1px solid #888;
+}
+
+.Sign-up-button
+{
+    width: 90%;
+    height: 25px;
+    font-size: 15px;
+    color: #FFF;
+    background-color: rgb(164, 46, 214);
+    border: transparent;
+    border-radius: 25px;
+    position: relative;
+    top: 20px;
+}
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgb(99, 81, 98);
+    position: relative;
+    top: 7px;
+}
+.separator::before,
+.separator::after {
+    content: '';
+    flex: 3;
+    border-bottom: 1px solid #888;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+  
+
+
+

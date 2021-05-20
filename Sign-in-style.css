@@ -1,0 +1,119 @@
+*{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-image: linear-gradient(to right, rgb(151, 243, 234), rgb(135, 205, 214), rgb(159, 220, 226),rgb(208, 143, 238), darkviolet );
+} 
+button{
+    cursor: pointer;
+}
+a{
+    color: darkviolet;
+} 
+.container0 p{
+    color: #fff;
+    width: 45%;
+    font-size: 51.9px;
+    float: left;
+    position: relative;
+    left: 10px;
+    top: 68px;
+    text-align: end; 
+    font-weight: bold;
+    line-height: 70px;
+}
+.container1{
+    border: 1px solid #888;
+    width: 28%;
+    height: 55vh;
+    text-align: center;
+    line-height: 30px;
+    float: right;
+    position: relative;
+    top: 125px;
+    right: 15%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.2);
+}
+.forget-password{
+    position: relative;
+    top: 30px;
+    color: rgb(99, 81, 98);
+    font-size: 14px;
+}
+
+.container3 button{
+    width: 90%;
+    height: 25px;
+    font-size: 15px;
+    color: rgb(164, 46, 214);
+    background-color: #fff;
+    border: 2px solid rgb(164, 46, 214);
+    border-radius: 25px;
+    font-weight: bold;
+}
+.Sign-in-button
+{
+    width: 90%;
+    height: 25px;
+    font-size: 15px;
+    color: #FFF;
+    background-color: rgb(164, 46, 214);
+    border: transparent;
+    border-radius: 25px;
+    position: relative;
+    top: 20px;
+}
+label{
+    color: rgb(99, 81, 98);
+    float: left;
+    padding-left: 20px;
+    font-weight: bold;
+
+
+}
+input{
+    width: 89%;
+    height: 25px;
+    border-radius: 25px;
+    border: 1px solid #888;
+
+}
+.container2{
+    position: absolute;
+    top: 7%;
+}
+.container3{
+    position: absolute;
+    top: 119%;
+    left: 12px;
+}
+.p2{
+    position: absolute;
+    top: 162%;
+    left: 25%;
+    font-size: 14px;
+    color: #fff;
+}
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #888;
+    position: relative;
+    top: 35px;
+    left: 20px;
+    width: 90%;
+}
+.separator::before,
+.separator::after {
+    content: '';
+    flex: 3;
+    border-bottom: 1px solid #888;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
